@@ -738,7 +738,7 @@ void putsUSBUSART(char *data);
 
 /**************************************************************************
   Function:
-        void putrsUSBUSART(const const char *data)
+        void putrsUSBUSART(const char *data)
     
   Summary:
     putrsUSBUSART writes a string of data to the USB including the null
