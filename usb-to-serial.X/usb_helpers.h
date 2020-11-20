@@ -12,7 +12,7 @@ void appUsbInit(void);
 void appUsbService(void);
 
 // Return 0 if USB power is detected, 1 if it is not detected.
-bit usbPowerPresent(void);
+__bit usbPowerPresent(void);
 
 // Returns the number of bytes available for immediate reading from the
 // USB virtual serial port.
